@@ -1,7 +1,7 @@
-# Bulmo Road Early Learning Phonics School (BRELPS) Website
+# Buimo Road Early Learning Phonics School (BRELPS) Website
 
 ## Project Overview
-This project is a professionally styled, responsive multi-page website developed for **Bulmo Road Early Learning Phonics School**, located in Lae, Morobe Province, Papua New Guinea. The website extends Assessment 2 into a fully responsive, semantic web application built using native HTML5 and custom CSS (without external frameworks like Bootstrap or Tailwind).
+This project is a professionally styled, responsive multi-page website developed for **Buimo Road Early Learning Phonics School**, located in Lae, Morobe Province, Papua New Guinea. The website extends Assessment 2 into a fully responsive, semantic web application built using native HTML5 and custom CSS (without external frameworks like Bootstrap or Tailwind).
 
 ## Features & Requirements Met
 * **Semantic HTML5:** Clean structural tags (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`).
@@ -21,7 +21,7 @@ This project is a professionally styled, responsive multi-page website developed
 * `logo-mark.jpeg` - Official school logo and media assets.
 
 ## Live Website URL
-file:///C:/Users/Administrator/Desktop/ISO229%20-%20Web%20Design/Assessible%20Items/Assignment%203/Jessline_Ken_A3/index.html
+https://jmkmam94-stack.github.io/Jessline_Ken_A3/index.html
 
 ## AI Use Declaration
 * **AI Tool Used:** Gemini (Google AI)
