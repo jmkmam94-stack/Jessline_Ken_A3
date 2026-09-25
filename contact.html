@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration & Contact - BRELPS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Buimo Road Early Learning Phonics School</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Information & Services</a></li>
+                <li><a href="contact.html">Registration & Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   <main>
+        <div class="grid-container">
+            <section class="card">
+                <h2>Student Enrolment and Inquiry Form</h2>
+                <p>Please fill out the form below to submit a student application or inquiry. All fields marked with an asterisk (*) are required.</p>
+                
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>Parent / Guardian Information</legend>
+                        
+                        <label for="parentName">Parent/Guardian Full Name *</label>
+                        <input type="text" id="parentName" name="parentName" required autocomplete="name">
+
+                        <label for="parentPhone">Phone Number (Digicel/Telikom) *</label>
+                        <input type="tel" id="parentPhone" name="parentPhone" placeholder="e.g. 73234567" required pattern="[0-9]{8}">
+
+                        <label for="parentEmail">Email Address</label>
+                        <input type="email" id="parentEmail" name="parentEmail">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Student & Grade Details</legend>
+                        
+                        <label for="studentName">Student Full Name *</label>
+                        <input type="text" id="studentName" name="studentName" required>
+
+                        <label for="dob">Date of Birth *</label>
+                        <input type="date" id="dob" name="dob" required>
+
+                        <label for="gradeLevel">Select Grade Level *</label>
+                        <select id="gradeLevel" name="gradeLevel" required>
+                            <option value="">---Please choose an option---</option>
+                            <option value="playschool">Play School</option>
+                            <option value="preschool">Pre-School</option>
+                            <option value="grade1">Grade 1</option>
+                            <option value="grade2">Grade 2</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Payment Method</legend>
+                        <p>Select your intended payment method:</p>
+                        
+                        <label>
+                            <input type="radio" name="paymentMethod" value="bsp deposit" required> BSP Bank Deposit Slip
+                        </label>
+                        <label>
+                            <input type="radio" name="paymentMethod" value="cash office"> Direct Cash Payment at School Office
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Additional Comments</legend>
+                        <label for="comments">Medical Notes or Special Requirements</label>
+                        <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+                    </fieldset>
+
+                    <button type="submit">Submit Registration Form</button>
+                </form>
+            </section>
+
+            <section class="card">
+                <h3>Contact Locations</h3>
+                <p>Buimo Road, Buimo Road, P.O. Box 949, Lae 411, Morobe Province, Papua New Guinea.</p>
+            </section>
+        </div>
+    </main> 
+
+    <footer>
+        <p>&copy; 2026 Buimo Road Early Learning Phonics School.</p>
+    </footer>
+
+</body>
+</html>
